@@ -5,7 +5,7 @@
 
 [Hao Zhang](http://www.cs.cmu.edu/~hzhang2/), [Zhuohan Li](https://people.eecs.berkeley.edu/~zhuohan/), [Lianmin Zheng](http://lmzheng.net/), and [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/)
 
-[RISE Lab](https://rise.cs.berkeley.edu/)
+[RISE Lab](https://rise.cs.berkeley.edu/),
 [University of California, Berkeley](http://www.berkeley.edu/)
 
 ## Introduction
