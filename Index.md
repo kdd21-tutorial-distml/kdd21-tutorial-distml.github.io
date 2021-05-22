@@ -15,8 +15,10 @@ The tutorial consists of four parts. The first part will present a landscape of 
 
 
 ## Date and Time
-
+TBD
 
 ## Tutorial Outline
+TBD
 
 ## Resources
+TBD
