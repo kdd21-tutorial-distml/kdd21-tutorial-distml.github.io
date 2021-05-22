@@ -6,7 +6,7 @@
 [Hao Zhang](http://www.cs.cmu.edu/~hzhang2/), [Zhuohan Li](https://people.eecs.berkeley.edu/~zhuohan/), [Lianmin Zheng](http://lmzheng.net/), and [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/)
 
 [RISE Lab](https://rise.cs.berkeley.edu/),
-[University of California, Berkeley](http://www.berkeley.edu/)
+[UC Berkeley](http://www.berkeley.edu/)
 
 ## Introduction
 ML scale-up is usually underestimated in terms of the amount of knowledge and time required -- applying parallel training systems to complex models adds nontrivial development overheads in addition to model prototyping, and often results in lower-than-expected performance. This tutorial identifies research and practical pain points in parallel ML training, and discusses the latest algorithm and system development on addressing challenges in both usability and performance. In particular, this tutorial presents a new perspective of unifying seemingly different distributed ML training strategies. Based on it, introduces new techniques and system architectures to simplify and automate ML parallelization. This tutorial is built upon the authors' years' of research and industry experience, a comprehensive literature survey, and several latest tutorials and papers published by the authors and peer researchers.
