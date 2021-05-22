@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## Tutorial Title
+ Simple and Automatic Distributed Machine Learning on Ray
 
-You can use the [editor on GitHub](https://github.com/zhisbug/kdd21-distml/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Presenters
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Hao Zhang](http://www.cs.cmu.edu/~hzhang2/), [Zhuohan Li](https://people.eecs.berkeley.edu/~zhuohan/), [Lianmin Zheng](http://lmzheng.net/), and [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/)
 
-### Markdown
+[RISE Lab](https://rise.cs.berkeley.edu/)
+[University of California, Berkeley](http://www.berkeley.edu/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Introduction
+ML scale-up is usually underestimated in terms of the amount of knowledge and time required -- applying parallel training systems to complex models adds nontrivial development overheads in addition to model prototyping, and often results in lower-than-expected performance. This tutorial identifies research and practical pain points in parallel ML training, and discusses the latest algorithm and system development on addressing challenges in both usability and performance. In particular, this tutorial presents a new perspective of unifying seemingly different distributed ML training strategies. Based on it, introduces new techniques and system architectures to simplify and automate ML parallelization. This tutorial is built upon the authors' years' of research and industry experience, a comprehensive literature survey, and several latest tutorials and papers published by the authors and peer researchers.
 
-```markdown
-Syntax highlighted code block
+The tutorial consists of four parts. The first part will present a landscape of distributed ML training techniques and systems, and highlight the major difficulties faced by users when writing distributed ML code with big models or big data. The second part dives deep to explain the mainstream training strategies. By developing new and unified formulations to represent the seemingly different parallel strategies, we describe algorithms and compiler system architectures to automate ML parallelization, based on models and clusters. The third part of this tutorial exposes a hidden layer of practical pain points in distributed ML training: hyper-parameter tuning and resource allocation, and introduces techniques to improve these aspects. The fourth part is designed as a hands-on coding session, in which we will walk through the audiences on writing distributed training programs in Python, using the various distributed ML tools and interfaces provided by the Ray ecosystem.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Date and Time
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Tutorial Outline
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zhisbug/kdd21-distml/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Resources
